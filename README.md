@@ -13,7 +13,7 @@
 
 php artisan migrate:fresh
 
-## Update Userr Column Using comman
+## Update User Column Using command
 
 ->php artisan tinker
 
