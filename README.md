@@ -2,9 +2,9 @@
 
 ->composer require laravel/breeze --dev
 ->php artisan breeze:install
-Which Breeze stack would you like to install?: [Blade with Alpine .................................................................. blade]
-Would you like dark mode support? (yes/no) [no]
-Which testing framework do you prefer? [Pest]
+->Which Breeze stack would you like to install?: [Blade with Alpine .................................................................. blade]
+->Would you like dark mode support? (yes/no) [no]
+->Which testing framework do you prefer? [Pest]
 
 ->npm install
 ->npm run build
