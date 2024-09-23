@@ -1,4 +1,4 @@
-## --------INSTALL BREEZE COMPOSER (Secure Multi-Auth Systems in Laravel 11 with Laravel Breeze)---------
+## INSTALL BREEZE COMPOSER (Secure Multi-Auth Systems in Laravel 11 with Laravel Breeze)
 
 ->composer require laravel/breeze --dev
 ->php artisan breeze:install
@@ -9,25 +9,25 @@ Which testing framework do you prefer? [Pest]
 ->npm install
 ->npm run build
 
-## --------Migrate Custom Table-----------
+## Migrate Custom Table
 
 php artisan migrate:fresh
 
-## ---------Update Userr Column Using command----------
+## Update Userr Column Using comman
 
 ->php artisan tinker
 
-## find(2) is the id of the user
+find(2) is the id of the user
 
-## $user->role is the column that you update
+$user->role is the column that you update
 
-## save() to execute and save the database comand
+save() to execute and save the database comand
 
 ->$user = App\Models\User::find(2)
 ->$user->role = 1
 ->$user->save()
 
-## ------- Create a separate auth role -----------
+## Create a separate auth role
 
 ->php artisan make:view super-admin/dashboard
 
