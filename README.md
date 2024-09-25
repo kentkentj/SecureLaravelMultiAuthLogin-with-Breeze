@@ -1,9 +1,13 @@
 ## INSTALL BREEZE COMPOSER (Secure Multi-Auth Systems in Laravel 11 with Laravel Breeze)
 
 ->composer require laravel/breeze --dev
+
 ->php artisan breeze:install
+
 ->Which Breeze stack would you like to install?: [Blade with Alpine .................................................................. blade]
+
 ->Would you like dark mode support? (yes/no) [no]
+
 ->Which testing framework do you prefer? [Pest]
 
 ->npm install
@@ -14,9 +18,13 @@
 php artisan migrate:fresh
 
 Register a dummy user in http://127.0.0.1:8000/register for testing purpose with following account:
+
 1: Super Admin | 2: Admin | 3: Normal User
+
 Normal User
+
 Admin
+
 Super Admin
 
 ## Update User Column Using command
@@ -30,13 +38,20 @@ $user->role is the column that you update
 save() to execute and save the database comand
 
 Type this in prompt
+
 ->$user = App\Models\User::find(2)
+
 ->$user->role = 1
+
 ->$user->save()
 
 ## Create a separate auth role
 
 ->php artisan make:view super-admin/dashboard
+
+->php artisan make:view admin/dashboard
+
+->php artisan make:view dashboard
 
 ## Modify The Controller
 
