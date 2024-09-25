@@ -113,7 +113,7 @@ File Location: File Location: app/Http/Controllers/Middleware
 
     }
 
-    $userRole = Auth()::user()->role;
+    $userRole = Auth::user()->role;
 
     //Super Admin
 
